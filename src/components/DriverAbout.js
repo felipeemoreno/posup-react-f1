@@ -34,12 +34,13 @@ const DriverAbout = (props) => {
   } else if (!isLoaded) {
     return <div>Carregando...</div>;
   } else {
+    const dateOfBirth = new Date(driverAbout.dateOfBirth);
     return (
       <div>
         <h3>Sobre o Piloto</h3>
         <div>
           <b>Nome:</b> {driverAbout.givenName} {driverAbout.familyName} <br/>
-          <b>Nascimento:</b> {driverAbout.dateOfBirth}</div>
+          <b>Nascimento:</b> {dateOfBirth.toLocaleDateString()}</div>
       </div>
     )
   }

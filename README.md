@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# F1 VITÓRIAS E TEMPORADAS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido em React para pós-graduação em Fullstack Javascript
+
+Busque por um piloto e ao clicar será exibido as temporadas da F1 que ele participou e suas vitórias.
 
 ## Available Scripts
 
